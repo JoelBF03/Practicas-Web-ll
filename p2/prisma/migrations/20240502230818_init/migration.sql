@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Tutoria" ALTER COLUMN "hora" DROP NOT NULL,
+ALTER COLUMN "hora" SET DATA TYPE TEXT;
